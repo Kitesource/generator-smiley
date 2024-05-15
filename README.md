@@ -4,11 +4,11 @@
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-smile using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-smiley using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-smile
+npm install -g generator-smiley
 ```
 
 Then generate your new project:
@@ -36,11 +36,11 @@ yo smiley:vue3-template <project_name>
 
 © [Smiley](https://github.com/Kitesource)
 
-[npm-image]: https://badge.fury.io/js/generator-smile.svg
-[npm-url]: https://npmjs.org/package/generator-smile
-[travis-image]: https://travis-ci.com//generator-smile.svg?branch=master
-[travis-url]: https://travis-ci.com//generator-smile
-[daviddm-image]: https://david-dm.org//generator-smile.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//generator-smile
-[coveralls-image]: https://coveralls.io/repos//generator-smile/badge.svg
-[coveralls-url]: https://coveralls.io/r//generator-smile
+[npm-image]: https://badge.fury.io/js/generator-smiley.svg
+[npm-url]: https://npmjs.org/package/generator-smiley
+[travis-image]: https://travis-ci.com//generator-smiley.svg?branch=master
+[travis-url]: https://travis-ci.com//generator-smiley
+[daviddm-image]: https://david-dm.org//generator-smiley.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org//generator-smiley
+[coveralls-image]: https://coveralls.io/repos//generator-smiley/badge.svg
+[coveralls-url]: https://coveralls.io/r//generator-smiley
