@@ -1,0 +1,15 @@
+{
+  "errors": {
+    "status": {
+      "BAD_REQUEST": "Sorry, browser generic error",
+      "UNAUTHORIZED": "You are not allowed to access this resource",
+      "FORBIDDEN": "Sorry, access to this resource is forbidden",
+      "NOT_FOUND": "The resource you wan to visit does not exist",
+      "INTERNAL_SERVER_ERROR": "Internal server error",
+      "NOT_IMPLEMENTED": "There is a problem with the server, please contact the administrator",
+      "BAD_GATEWAY": "There is a problem with the server, please contact the administrator",
+      "SERVICE_UNAVAILABLE": "Service unavailable",
+      "GATEWAY_TIMEOUT": "Server timed out, please contact the administrator"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+/* Just rewrite what you need */
+
+// https: //github.com/element-plus/element-plus/blob/dev/packages/theme-chalk/src/mixins/function.scss
+// https: //github.com/element-plus/element-plus/blob/dev/packages/theme-chalk/src/common/var.scss
+// @use 'element-plus/theme-chalk/src/mixins/function' as *;
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  // Color
+  $colors:
+    (
+      'primary': (
+        'base': $--color-blue-500,
+        'var-name': 'blue'
+      ),
+      'success': (
+        'base': $--color-green-500,
+        'var-name': 'green'
+      ),
+      'warning': (
+        'base': $--color-orange-500,
+        'var-name': 'orange'
+      ),
+      'danger': (
+        'base': $--color-red-500,
+        'var-name': 'red'
+      ),
+      'error': (
+        'base': $--color-red-500,
+        'var-name': 'red'
+      ),
+      'info': (
+        'base': $--color-gray-500,
+        'var-name': 'neutral'
+      )
+    ),
+
+);

@@ -1,0 +1,227 @@
+/*
+  This variables file control both tailwind configurations and Element theming.
+*/
+$--color-white: #fff !default;
+$--color-black: #000 !default;
+
+
+// blue
+$--color-blue-50:  #F0F6FF;
+$--color-blue-100: #E5F1FF;
+$--color-blue-200: #BDDBFF;
+$--color-blue-300: #8FC1FF;
+$--color-blue-400: #61A9FF;
+$--color-blue-500: #338FFF;
+$--color-blue-600: #1271ED;
+$--color-blue-700: #0056BE;
+$--color-blue-800: #00408F;
+$--color-blue-900: #002D66;
+
+// Green
+$--color-green-50:  #EDFAF4;
+$--color-green-100: #DCF4E8;
+$--color-green-200: #A7E4C6;
+$--color-green-300: #7BD6A9;
+$--color-green-400: #50C98D;
+$--color-green-500: #2DB270;
+$--color-green-600: #119C57;
+$--color-green-700: #0E8147;
+$--color-green-800: #0A5C34;
+$--color-green-900: #08492A;
+
+
+// Orange
+$--color-orange-50:  #FFFAF0;
+$--color-orange-100: #FEF3D7;
+$--color-orange-200: #FDE19B;
+$--color-orange-300: #FBD26A;
+$--color-orange-400: #F9BF39;
+$--color-orange-500: #F5A905;
+$--color-orange-600: #E49101;
+$--color-orange-700: #BD7100;
+$--color-orange-800: #8F5100;
+$--color-orange-900: #703C00;
+
+// Red
+$--color-red-50:  #FDF1F1;
+$--color-red-100: #FCE3E3;
+$--color-red-200: #F7BABA;
+$--color-red-300: #F29898;
+$--color-red-400: #EE7575;
+$--color-red-500: #E74B4B;
+$--color-red-600: #D24241;
+$--color-red-700: #C13433;
+$--color-red-800: #922120;
+$--color-red-900: #7B1414;
+
+
+// Purple
+$--color-purple-50:  #F7F5FE;
+$--color-purple-100: #EBE7FE;
+$--color-purple-200: #D8D1FA;
+$--color-purple-300: #C3B9F4;
+$--color-purple-400: #A89BE9;
+$--color-purple-500: #8B79E2;
+$--color-purple-600: #745CD6;
+$--color-purple-700: #5F4AC9;
+$--color-purple-800: #4E37A9;
+$--color-purple-900: #3F317D;
+
+// Gray
+$--color-gray-50:   #F5F5F5;
+$--color-gray-100:  #EDEDED;
+$--color-gray-200:  #D9D9D9;
+$--color-gray-300:  #BFBFBF;
+$--color-gray-400:  #999999;
+$--color-gray-500:  #666666;
+$--color-gray-600:  #4D4D4D;
+$--color-gray-700:  #333333;
+$--color-gray-800:  #242424;
+$--color-gray-900:  #141414;
+
+
+/* Box Shadow */
+$--shadow-inner:   inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+$--shadow-sm:      0 1px 2px 0 rgb(0 0 0 / 0.05);
+$--shadow-base:    0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+$--shadow-md:      0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+$--shadow-lg:      0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+$--shadow-xl:      0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+$--shadow-2xl:     0 25px 50px -12px rgb(0 0 0 / 0.25);;
+$--shadow-none:    none;
+
+/*
+  Border Radius
+  The default radius for element is 2px.
+  We also provide a value of 6 sizes for different situations.
+*/
+$--borderRadius-none:    0;
+$--borderRadius-sm:      0.125rem; // 2px
+$--borderRadius-md:      0.25rem;  // 4px
+$--borderRadius-lg:      0.5rem;   // 8px
+$--borderRadius-full:    9999px;
+
+/* Font-size
+-------------------------- */
+$--fontSize-xs: 0.75rem;   // xs 12px
+$--fontSize-sm: 0.875rem;  // sm,h6 14px
+$--fontSize-base: 1rem;    // base,h5 16px
+$--fontSize-lg: 1.125rem;  // lg 18px
+$--fontSize-xl: 1.25rem;   // xl,h4 20px
+$--fontSize-2xl: 1.5rem;   // h3 24px
+$--fontSize-3xl: 2rem;     // h2 32px
+$--fontSize-4xl: 2.5rem;   // h1 40px
+
+
+$--color-text-placeholder: $--color-gray-5 !default;
+$--color-info: $--color-gray-6;
+$--color-text-regular: $--color-gray-8 !default;
+
+/* ================================================================ */
+
+/* CSS Variables */
+:root {
+  --tw-bg-opacity: 1;
+
+  // blue
+  --color-blue-50: #{$--color-blue-50};
+  --color-blue-100: #{$--color-blue-100};
+  --color-blue-200: #{$--color-blue-200};
+  --color-blue-300: #{$--color-blue-300};
+  --color-blue-400: #{$--color-blue-400};
+  --color-blue-500: #{$--color-blue-500};
+  --color-blue-600: #{$--color-blue-600};
+  --color-blue-700: #{$--color-blue-700};
+  --color-blue-800: #{$--color-blue-800};
+  --color-blue-900: #{$--color-blue-900};
+
+  // Green
+  --color-green-50: #{$--color-green-50};
+  --color-green-100: #{$--color-green-100};
+  --color-green-200: #{$--color-green-200};
+  --color-green-300: #{$--color-green-300};
+  --color-green-400: #{$--color-green-400};
+  --color-green-500: #{$--color-green-500};
+  --color-green-600: #{$--color-green-600};
+  --color-green-700: #{$--color-green-700};
+  --color-green-800: #{$--color-green-800};
+  --color-green-900: #{$--color-green-900};
+
+  // Orange
+  --color-orange-50: #{$--color-orange-50};
+  --color-orange-100: #{$--color-orange-100};
+  --color-orange-200: #{$--color-orange-200};
+  --color-orange-300: #{$--color-orange-300};
+  --color-orange-400: #{$--color-orange-400};
+  --color-orange-500: #{$--color-orange-500};
+  --color-orange-600: #{$--color-orange-600};
+  --color-orange-700: #{$--color-orange-700};
+  --color-orange-800: #{$--color-orange-800};
+  --color-orange-900: #{$--color-orange-900};
+
+  // Red
+  --color-red-50: #{$--color-red-50};
+  --color-red-100: #{$--color-red-100};
+  --color-red-200: #{$--color-red-200};
+  --color-red-300: #{$--color-red-300};
+  --color-red-400: #{$--color-red-400};
+  --color-red-500: #{$--color-red-500};
+  --color-red-600: #{$--color-red-600};
+  --color-red-700: #{$--color-red-700};
+  --color-red-800: #{$--color-red-800};
+  --color-red-900: #{$--color-red-900};
+
+  // Purple
+  --color-purple-50: #{$--color-purple-50};
+  --color-purple-100: #{$--color-purple-100};
+  --color-purple-200: #{$--color-purple-200};
+  --color-purple-300: #{$--color-purple-300};
+  --color-purple-400: #{$--color-purple-400};
+  --color-purple-500: #{$--color-purple-500};
+  --color-purple-600: #{$--color-purple-600};
+  --color-purple-700: #{$--color-purple-700};
+  --color-purple-800: #{$--color-purple-800};
+  --color-purple-900: #{$--color-purple-900};
+
+  // Gray
+  --color-gray-50: #{$--color-gray-50};
+  --color-gray-100: #{$--color-gray-100};
+  --color-gray-200: #{$--color-gray-200};
+  --color-gray-300: #{$--color-gray-300};
+  --color-gray-400: #{$--color-gray-400};
+  --color-gray-500: #{$--color-gray-500};
+  --color-gray-600: #{$--color-gray-600};
+  --color-gray-700: #{$--color-gray-700};
+  --color-gray-800: #{$--color-gray-800};
+  --color-gray-900: #{$--color-gray-900};
+
+
+  // Shadows
+  --shadow-inner: #{$--shadow-inner};
+  --shadow-sm: #{$--shadow-sm};
+  --shadow-base: #{$--shadow-base};
+  --shadow-md: #{$--shadow-md};
+  --shadow-lg: #{$--shadow-lg};
+  --shadow-xl: #{$--shadow-xl};
+  --shadow-2xl: #{$--shadow-2xl};
+  --shadow-none: #{$--shadow-none};
+
+  // Border Radius
+  --borderRadius-none: #{$--borderRadius-none};
+  --borderRadius-sm: #{$--borderRadius-sm};
+  --borderRadius-md: #{$--borderRadius-md};
+  --borderRadius-lg: #{$--borderRadius-lg};
+  --borderRadius-full: #{$--borderRadius-full};
+
+  // Font Size
+  --fontSize-xs: #{$--fontSize-xs};
+  --fontSize-sm: #{$--fontSize-sm};
+  --fontSize-base: #{$--fontSize-base};
+  --fontSize-lg: #{$--fontSize-lg};
+  --fontSize-xl: #{$--fontSize-xl};
+  --fontSize-2xl: #{$--fontSize-2xl};
+  --fontSize-3xl: #{$--fontSize-3xl};
+  --fontSize-4xl: #{$--fontSize-4xl};
+}
+
+

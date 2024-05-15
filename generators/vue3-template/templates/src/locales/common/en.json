@@ -1,0 +1,46 @@
+{
+  "common": {
+    "n": {
+      "or": "OR",
+      "and": "And",
+      "all": "All",
+      "tags": "Tags",
+      "full": "Full",
+      "none": "None",
+      "image": "Image",
+      "empty": "Empty",
+      "times": "Times",
+      "no-data": "No Data"
+    },
+    "v": {
+      "ok": "OK",
+      "save": "Save",
+      "edit": "Edit",
+      "skip": "Skip",
+      "copy": "Copy",
+      "clear": "Clear",
+      "reset": "Reset",
+      "query": "Query",
+      "update": "Update",
+      "search": "Search",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "remove": "Remove",
+      "return": "Return",
+      "submit": "Submit",
+      "create": "Create",
+      "refresh": "Refresh",
+      "confirm": "Confirm",
+      "feedback": "Feedback",
+      "operation": "Operation",
+      "save-as": "Save As",
+      "correction": "Correction",
+      "zoom-in": "Zoom In",
+      "zoom-out": "Zoom Out",
+      "new-create": "New Create",
+      "continue": "Continue"
+    },
+    "param": {},
+    "phrase": {}
+  }
+}

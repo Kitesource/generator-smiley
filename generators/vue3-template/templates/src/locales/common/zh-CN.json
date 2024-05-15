@@ -1,0 +1,46 @@
+{
+  "common": {
+    "n": {
+      "or": "或",
+      "and": "和",
+      "all": "所有",
+      "tags": "标签",
+      "full": "全部",
+      "none": "暂无",
+      "image": "图片",
+      "empty": "空",
+      "times": "倍",
+      "no-data": "暂无数据"
+    },
+    "v": {
+      "ok": "确定",
+      "save": "保存",
+      "edit": "编辑",
+      "skip": "跳转",
+      "copy": "复制",
+      "clear": "清空",
+      "reset": "重置",
+      "query": "查询",
+      "update": "更新",
+      "search": "搜索",
+      "cancel": "取消",
+      "delete": "删除",
+      "remove": "移除",
+      "return": "返回",
+      "submit": "提交",
+      "create": "创建",
+      "refresh": "刷新",
+      "confirm": "确认",
+      "feedback": "反馈",
+      "operation": "操作",
+      "save-as": "另存为",
+      "correction": "纠正",
+      "zoom-in": "放大",
+      "zoom-out": "缩小",
+      "new-create": "新建",
+      "continue": "继续"
+    },
+    "param": {},
+    "phrase": {}
+  }
+}
