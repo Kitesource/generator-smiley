@@ -4,8 +4,6 @@ import { use } from 'echarts/core'
 import { CanvasRenderer, SVGRenderer } from 'echarts/renderers'
 import {
   BarChart,
-  CustomChart,
-  EffectScatterChart,
   GraphChart,
   LineChart,
   PieChart,
@@ -29,7 +27,6 @@ use([
   PieChart,
   LineChart,
   GraphChart,
-  CustomChart,
   GridComponent,
   TitleComponent,
   DatasetComponent,
@@ -37,7 +34,6 @@ use([
   TooltipComponent,
   ToolboxComponent,
   MarkPointComponent,
-  EffectScatterChart,
   MarkLineComponent,
   MarkAreaComponent,
 ])

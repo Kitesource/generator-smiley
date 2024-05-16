@@ -12,15 +12,14 @@
   },
   "scripts": {
     "cz": "git add . && cz",
-    "serve": "vite --mode localhost",
+    "dev": "vite --mode localhost",
     "build": "vue-tsc --noEmit && vite build --mode production",
     "build:dev": "vue-tsc --noEmit && vite build --mode development",
     "format": "prettier --write .",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json",
     "lint:fix": "eslint --fix . --ext .vue,.js,.ts,.jsx,.tsx,.json",
     "preview": "vite preview",
-    "prepare": "husky install",
-    "i18n:extract": "vue-i18n-extract report --vueFiles './src/**/*.?(vue)' --languageFiles './src/locales/**/*.?(json)' --exclude errors"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
