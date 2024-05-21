@@ -31,7 +31,7 @@ import { useCommonStore } from '@/store'
 interface Props {
   headerHeight: string
 }
-defineProps<Props>()
+defineProps<Props>({})
 
 const commonStore = useCommonStore()
 </script>
