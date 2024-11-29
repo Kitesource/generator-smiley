@@ -16,6 +16,11 @@
     "template",
     "yeoman-generator"
   ],
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest",
+    "release": "release-it"
+  },
   "devDependencies": {
     "coveralls": "^3.0.7",
     "eslint": "^6.6.0",
@@ -71,10 +76,6 @@
     "plugins": [
       "prettier"
     ]
-  },
-  "scripts": {
-    "pretest": "eslint .",
-    "test": "jest"
   },
   "license": "MIT"
 }
