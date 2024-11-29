@@ -1,13 +1,14 @@
 language: node_js
 node_js:
-  - v22
-  - v20
-  - v18
-  - v16
-  - v14
-  - v12
-  - v10
-  - v8
-  - v6
-  - v4
-after_script: cat ./coverage/lcov.info | coveralls
+  - node
+deploy:
+  provider: npm
+  email: 2257440643@qq.com
+  api_key:
+    secure: "Xs3W8yAHQB2M5G3ytCoIStzLWEcKmKET+H6YRpBXt7qZPtPls7KjqkBID0CxhrtD4A+sjt9aU9wfgXhYr7mPPFcxASKHn3W8T5CUhyx23gUPqZ+989fA/qCPuR8ActNhB8r43pidOnieaCt9SdcFm28njBytoyi/fMcRuMyKt0kSh5QLZjwjGcAcgRhX5hcM5tm5HX+iRY++uGosPVF7xr3KW5+0v5+JvG9t3MnE6VzNsPjfzcPX1lkZxfv+UiGZTMMPOowBp7iwSz67XeNk6LY4CGe/WWj3MadmqaBko+VR5w50DqbQIiAG59wo2Tpb69qpqaRCwGiZrQvERxy0bos8fPhGsWih9ilLDGOx/3e9GYzYdCsICjHjHD4HgrHpdMexRPcDC9u/10JDSL4F7B3+1tcNAQzNpk4Ifw1dZBU962TMiHK0OLqRPmmbdaEHyCdn3RBvhf/FuPGsm4xHIkKyQF8aGgIIjB7qZLZieqcP8J4S7koWVQPeXbUIb7u0wMp9VRz64j3+VXKdVRorkgbZZj6uXIHG3hn//T/9QgKmvoZoK0fRHO92mENC/KTYuQVZsTGsgrDb8otLbq4dNotFHB3j4XsUjxkqt7+yTSW3PbnX90DO1sSgos+mw5eH8L1YLYVnfVR2EXpFHgfCUKARNHFek6MNc5vbRp+j4Ng="
+  on:
+    tags: true
+    repo: Kitesource/generator-smiley
+    branch: main
+  skip_cleanup: "true"
+  tag: latest

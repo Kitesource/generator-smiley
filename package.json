@@ -1,11 +1,11 @@
 {
   "name": "generator-smiley",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal scaffolding",
   "homepage": "",
   "author": {
     "name": "Smiley",
-    "email": "cfz01212022@163.com",
+    "email": "cfzhu0121@163.com",
     "url": "https://github.com/Kitesource"
   },
   "files": [
@@ -13,7 +13,7 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
+    "template",
     "yeoman-generator"
   ],
   "devDependencies": {
@@ -26,6 +26,7 @@
     "jest": "^26.1.0",
     "lint-staged": "^9.4.3",
     "prettier": "^1.19.1",
+    "release-it": "^17.10.0",
     "yeoman-assert": "^3.1.1",
     "yeoman-test": "^1.7.0"
   },
