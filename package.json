@@ -2,7 +2,7 @@
   "name": "generator-smiley",
   "version": "1.1.0",
   "description": "Personal scaffolding",
-  "homepage": "",
+  "homepage": "https://github.com/Kitesource/generator-smiley",
   "author": {
     "name": "Smiley",
     "email": "cfzhu0121@163.com",
@@ -37,7 +37,7 @@
     "lint-staged": "^9.4.3",
     "prettier": "^3.7.4",
     "yeoman-assert": "^3.1.1",
-    "yeoman-test": "^11.2.0"
+    "yeoman-test": "^6.3.0"
   },
   "engines": {
     "npm": ">= 6.0.0"
@@ -45,11 +45,12 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "release-it": "^18.1.1",
-    "yeoman-generator": "^7.5.1",
+    "yeoman-generator": "^5.10.0",
     "yosay": "^2.0.2"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "testTimeout": 60000
   },
   "lint-staged": {
     "*.js": [
