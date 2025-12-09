@@ -1,0 +1,26 @@
+// Global Styles
+html,
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+}
+
+// Layout
+main {
+  transition: all 300ms linear 0s;
+}
+
+// 移除 el-dropdown 组件的默认 outline 样式
+.el-dropdown,
+.el-dropdown:focus,
+.el-dropdown:focus-visible {
+  outline: none !important;
+  .el-tooltip__trigger:focus,
+  .el-tooltip__trigger:focus-visible {
+    outline: none !important;
+  }
+}

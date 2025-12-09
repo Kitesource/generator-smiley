@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "useDefineForClassFields": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "lib": ["esnext", "dom"],
+    "types": ["vite/client"],
+    "plugins": [{
+      "name": "@vuedx/typescript-plugin-vue" // 增强Vue单文件的TS体验的插件
+    }],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"] // 路径alias
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/**/*.js",
+    "components.d.ts",
+    "auto-imports.d.ts",  ],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,1 @@
+export const APP_LANGUAGE = 'VUE_APP_LANGUAGE'

@@ -1,0 +1,323 @@
+@use 'sass:map';
+/*
+  This variables file control both tailwind configurations and Element-UI theming.
+*/
+
+/* SASS Variables */
+// neutrals
+$color-neutral-00: #f5f7fa;
+$color-neutral-10: #f3f4f6;
+$color-neutral-20: #e5e7eb;
+$color-neutral-30: #d1d5dc;
+$color-neutral-40: #bec4ce;
+$color-neutral-50: #afb7c3;
+$color-neutral-100: #9ea7b6;
+$color-neutral-200: #8c97a9;
+$color-neutral-300: #7d899d;
+$color-neutral-400: #6d7b91;
+$color-neutral-500: #55647c;
+$color-neutral-600: #3d4d68;
+$color-neutral-700: #253753;
+$color-neutral-800: #0e2140;
+$color-neutral-900: #051123;
+
+// Brand
+$color-brand-100: #ebf4ff;
+$color-brand-200: #c2ddff;
+$color-brand-300: #90c2ff;
+$color-brand-400: #62a9ff;
+$color-brand-500: #338fff;
+$color-brand-600: #1c72e3;
+$color-brand-700: #0455c6;
+$color-brand-800: #084191;
+$color-brand-900: #0e2a58;
+
+// Skyblue
+$color-skyblue-100: #dcf2fe;
+$color-skyblue-200: #b7e5fe;
+$color-skyblue-300: #7ccffe;
+$color-skyblue-400: #43b9fd;
+$color-skyblue-500: #09a4fc;
+$color-skyblue-600: #058fdd;
+$color-skyblue-700: #017abe;
+$color-skyblue-800: #03598a;
+$color-skyblue-900: #083653;
+
+// Teal
+$color-teal-100: #eaf9fb;
+$color-teal-200: #bbecf3;
+$color-teal-300: #8bdfeb;
+$color-teal-400: #5cd1e3;
+$color-teal-500: #26c2d9;
+$color-teal-600: #24a4b7;
+$color-teal-700: #218897;
+$color-teal-800: #18646f;
+$color-teal-900: #103f46;
+
+// Green
+$color-green-100: #ecf9f2;
+$color-green-200: #c0ebd5;
+$color-green-300: #8edab4;
+$color-green-400: #5cc992;
+$color-green-500: #2db270;
+$color-green-600: #26a163;
+$color-green-700: #1d8752;
+$color-green-800: #126c3f;
+$color-green-900: #064b28;
+
+// Ascential
+$color-ascential-100: #f2f7e5;
+$color-ascential-200: #dbe9b6;
+$color-ascential-300: #c2db84;
+$color-ascential-400: #a8cb50;
+$color-ascential-500: #91be23;
+$color-ascential-600: #729c3b;
+$color-ascential-700: #486f59;
+$color-ascential-800: #255a4d;
+$color-ascential-900: #054641;
+
+// Orange
+$color-orange-100: #fff3db;
+$color-orange-200: #ffe0a3;
+$color-orange-300: #fac864;
+$color-orange-400: #f5b431;
+$color-orange-500: #eb9f13;
+$color-orange-600: #d18a0f;
+$color-orange-700: #ab6a0a;
+$color-orange-800: #804e0d;
+$color-orange-900: #5c3d1f;
+
+// Red
+$color-red-100: #fce3e3;
+$color-red-200: #fcbfbf;
+$color-red-300: #fb9797;
+$color-red-400: #f76e6d;
+$color-red-500: #eb5150;
+$color-red-600: #cc3e3d;
+$color-red-700: #ad3434;
+$color-red-800: #842525;
+$color-red-900: #592222;
+
+// Pink
+$color-pink-100: #fce8f5;
+$color-pink-200: #f7cce7;
+$color-pink-300: #f0abd6;
+$color-pink-400: #ea8dc6;
+$color-pink-500: #e16fb5;
+$color-pink-600: #c2599a;
+$color-pink-700: #a1457d;
+$color-pink-800: #7a335e;
+$color-pink-900: #4a1c38;
+
+// Purple
+$color-purple-100: #ede9fb;
+$color-purple-200: #dbd5f7;
+$color-purple-300: #c7bdf3;
+$color-purple-400: #b5a7ef;
+$color-purple-500: #a190ea;
+$color-purple-600: #8772de;
+$color-purple-700: #6d54d1;
+$color-purple-800: #4f3c9c;
+$color-purple-900: #33246b;
+
+/* Box Shadow */
+$shadow-xs: 0 0 0 1px rgba(0, 0, 0, 0.04);
+$shadow-sm: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+$shadow-default:
+  0 1px 2px rgba(0, 0, 0, 0.03),
+  0 2px 3px rgba(0, 0, 0, 0.04);
+$shadow-md:
+  0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg:
+  0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-xl:
+  0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+$shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+$shadow-outline: 0 0 0 3px rgba($color-brand-500, 0.5);
+$shadow-none: none;
+
+/*
+  Border Radius
+  The default radius for element-UI is 2px.
+  We also provide a value of 6 sizes for different situations.
+*/
+$borderRadius-none: 0;
+$borderRadius-sm: 0.125rem; // 2px
+$borderRadius-default: 0.25rem; // 4px
+$borderRadius-md: 0.375rem; // 6px
+$borderRadius-lg: 0.5rem; // 8px
+$borderRadius-full: 9999px;
+
+/* Font-size
+-------------------------- */
+$fontSize-xs: 0.75rem;
+$fontSize-sm: 0.875rem;
+$fontSize-base: 1rem;
+$fontSize-lg: 1.125rem;
+$fontSize-xl: 1.25rem;
+$fontSize-2xl: 1.5rem;
+$fontSize-3xl: 1.875rem;
+$fontSize-4xl: 2.25rem;
+$fontSize-5xl: 3rem;
+$fontSize-6xl: 4rem;
+
+/* ================================================================ */
+
+/* CSS Variables */
+:root {
+  --tw-bg-opacity: 1;
+
+  // neutrals
+  --color-neutral-00: #{$color-neutral-00};
+  --color-neutral-10: #{$color-neutral-10};
+  --color-neutral-20: #{$color-neutral-20};
+  --color-neutral-30: #{$color-neutral-30};
+  --color-neutral-40: #{$color-neutral-40};
+  --color-neutral-50: #{$color-neutral-50};
+  --color-neutral-100: #{$color-neutral-100};
+  --color-neutral-200: #{$color-neutral-200};
+  --color-neutral-300: #{$color-neutral-300};
+  --color-neutral-400: #{$color-neutral-400};
+  --color-neutral-500: #{$color-neutral-500};
+  --color-neutral-600: #{$color-neutral-600};
+  --color-neutral-700: #{$color-neutral-700};
+  --color-neutral-800: #{$color-neutral-800};
+  --color-neutral-900: #{$color-neutral-900};
+
+  // Brand
+  --color-brand-100: #{$color-brand-100};
+  --color-brand-200: #{$color-brand-200};
+  --color-brand-300: #{$color-brand-300};
+  --color-brand-400: #{$color-brand-400};
+  --color-brand-500: #{$color-brand-500};
+  --color-brand-600: #{$color-brand-600};
+  --color-brand-700: #{$color-brand-700};
+  --color-brand-800: #{$color-brand-800};
+  --color-brand-900: #{$color-brand-900};
+
+  // Skyblue
+  --color-skyblue-100: #{$color-skyblue-100};
+  --color-skyblue-200: #{$color-skyblue-200};
+  --color-skyblue-300: #{$color-skyblue-300};
+  --color-skyblue-400: #{$color-skyblue-400};
+  --color-skyblue-500: #{$color-skyblue-500};
+  --color-skyblue-600: #{$color-skyblue-600};
+  --color-skyblue-700: #{$color-skyblue-700};
+  --color-skyblue-800: #{$color-skyblue-800};
+  --color-skyblue-900: #{$color-skyblue-900};
+
+  // Teal
+  --color-teal-100: #{$color-teal-100};
+  --color-teal-200: #{$color-teal-200};
+  --color-teal-300: #{$color-teal-300};
+  --color-teal-400: #{$color-teal-400};
+  --color-teal-500: #{$color-teal-500};
+  --color-teal-600: #{$color-teal-600};
+  --color-teal-700: #{$color-teal-700};
+  --color-teal-800: #{$color-teal-800};
+  --color-teal-900: #{$color-teal-900};
+
+  // Green
+  --color-green-100: #{$color-green-100};
+  --color-green-200: #{$color-green-200};
+  --color-green-300: #{$color-green-300};
+  --color-green-400: #{$color-green-400};
+  --color-green-500: #{$color-green-500};
+  --color-green-600: #{$color-green-600};
+  --color-green-700: #{$color-green-700};
+  --color-green-800: #{$color-green-800};
+  --color-green-900: #{$color-green-900};
+
+  // Ascential
+  --color-ascential-100: #{$color-ascential-100};
+  --color-ascential-200: #{$color-ascential-200};
+  --color-ascential-300: #{$color-ascential-300};
+  --color-ascential-400: #{$color-ascential-400};
+  --color-ascential-500: #{$color-ascential-500};
+  --color-ascential-600: #{$color-ascential-600};
+  --color-ascential-700: #{$color-ascential-700};
+  --color-ascential-800: #{$color-ascential-800};
+  --color-ascential-900: #{$color-ascential-900};
+
+  // Orange
+  --color-orange-100: #{$color-orange-100};
+  --color-orange-200: #{$color-orange-200};
+  --color-orange-300: #{$color-orange-300};
+  --color-orange-400: #{$color-orange-400};
+  --color-orange-500: #{$color-orange-500};
+  --color-orange-600: #{$color-orange-600};
+  --color-orange-700: #{$color-orange-700};
+  --color-orange-800: #{$color-orange-800};
+  --color-orange-900: #{$color-orange-900};
+
+  // Red
+  --color-red-100: #{$color-red-100};
+  --color-red-200: #{$color-red-200};
+  --color-red-300: #{$color-red-300};
+  --color-red-400: #{$color-red-400};
+  --color-red-500: #{$color-red-500};
+  --color-red-600: #{$color-red-600};
+  --color-red-700: #{$color-red-700};
+  --color-red-800: #{$color-red-800};
+  --color-red-900: #{$color-red-900};
+
+  // Pink
+  --color-pink-100: #{$color-pink-100};
+  --color-pink-200: #{$color-pink-200};
+  --color-pink-300: #{$color-pink-300};
+  --color-pink-400: #{$color-pink-400};
+  --color-pink-500: #{$color-pink-500};
+  --color-pink-600: #{$color-pink-600};
+  --color-pink-700: #{$color-pink-700};
+  --color-pink-800: #{$color-pink-800};
+  --color-pink-900: #{$color-pink-900};
+
+  // Purple
+  --color-purple-100: #{$color-purple-100};
+  --color-purple-200: #{$color-purple-200};
+  --color-purple-300: #{$color-purple-300};
+  --color-purple-400: #{$color-purple-400};
+  --color-purple-500: #{$color-purple-500};
+  --color-purple-600: #{$color-purple-600};
+  --color-purple-700: #{$color-purple-700};
+  --color-purple-800: #{$color-purple-800};
+  --color-purple-900: #{$color-purple-900};
+
+  // Shadows
+  --shadow-xs: #{$shadow-xs};
+  --shadow-sm: #{$shadow-sm};
+  --shadow-default: #{$shadow-default};
+  --shadow-md: #{$shadow-md};
+  --shadow-lg: #{$shadow-lg};
+  --shadow-xl: #{$shadow-xl};
+  --shadow-2xl: #{$shadow-2xl};
+  --shadow-inner: #{$shadow-inner};
+  --shadow-outline: #{$shadow-outline};
+  --shadow-none: #{$shadow-none};
+
+  // Border Radius
+
+  /* Border Radius */
+  --borderRadius-none: #{$borderRadius-none};
+  --borderRadius-sm: #{$borderRadius-sm};
+  --borderRadius-default: #{$borderRadius-default};
+  --borderRadius-md: #{$borderRadius-md};
+  --borderRadius-lg: #{$borderRadius-lg};
+  --borderRadius-full: #{$borderRadius-full};
+
+  // Font Size
+  --fontSize-xs: #{$fontSize-xs};
+  --fontSize-sm: #{$fontSize-sm};
+  --fontSize-base: #{$fontSize-base};
+  --fontSize-lg: #{$fontSize-lg};
+  --fontSize-xl: #{$fontSize-xl};
+  --fontSize-2xl: #{$fontSize-2xl};
+  --fontSize-3xl: #{$fontSize-3xl};
+  --fontSize-4xl: #{$fontSize-4xl};
+  --fontSize-5xl: #{$fontSize-5xl};
+  --fontSize-6xl: #{$fontSize-6xl};
+}

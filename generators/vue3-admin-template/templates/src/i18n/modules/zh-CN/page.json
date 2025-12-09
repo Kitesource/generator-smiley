@@ -1,0 +1,18 @@
+{
+  "lbl": {
+    "systemManagement": "系统管理",
+    "userManagement": "用户管理",
+    "dataAnalysis": "数据分析"
+  },
+  "act": {},
+  "tip": {},
+  "text": {
+    "welcomeTitle": "欢迎使用后台管理系统",
+    "welcomeSubtitle": "这是一个基于 Vue 3 + TypeScript + Element Plus 构建的现代化管理系统",
+    "systemManagementDesc": "提供菜单管理、系统日志和系统配置等功能",
+    "userManagementDesc": "支持用户列表查看和角色管理功能",
+    "dataAnalysisDesc": "提供数据概览和详细分析功能",
+    "systemAlertTitle": "系统提示",
+    "systemAlertDesc": "您可以通过左侧菜单栏导航到不同的功能模块。如有任何问题，请联系系统管理员。"
+  }
+}

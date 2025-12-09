@@ -1,0 +1,18 @@
+{
+  "lbl": {
+    "systemManagement": "System Management",
+    "userManagement": "User Management",
+    "dataAnalysis": "Data Analysis"
+  },
+  "act": {},
+  "tip": {},
+  "text": {
+    "welcomeTitle": "Welcome to Admin System",
+    "welcomeSubtitle": "This is a modern management system built with Vue 3 + TypeScript + Element Plus",
+    "systemManagementDesc": "Provide menu management, system logs and system configuration functions",
+    "userManagementDesc": "Support user list viewing and role management functions",
+    "dataAnalysisDesc": "Provide data overview and detailed analysis functions",
+    "systemAlertTitle": "System Notice",
+    "systemAlertDesc": "You can navigate to different functional modules through the left menu bar. If you have any questions, please contact the system administrator."
+  }
+}

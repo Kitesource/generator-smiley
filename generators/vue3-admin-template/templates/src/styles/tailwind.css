@@ -1,0 +1,39 @@
+/* ./src/index.css */
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--color-brand-500);
+  --color-success: var(--color-green-500);
+  --color-warning: var(--color-orange-500);
+  --color-danger: var(--color-red-500);
+  --color-error: var(--color-red-500);
+  --color-info: var(--color-info-500);
+
+  --color-brand-50: var(--color-brand-50);
+  --color-brand-100: var(--color-brand-100);
+  --color-brand-200: var(--color-brand-200);
+  --color-brand-300: var(--color-brand-300);
+  --color-brand-400: var(--color-brand-400);
+  --color-brand-500: var(--color-brand-500);
+  --color-brand-600: var(--color-brand-600);
+  --color-brand-700: var(--color-brand-700);
+  --color-brand-800: var(--color-brand-800);
+  --color-brand-900: var(--color-brand-900);
+
+  --color-neutral-00: var(--color-neutral-00);
+  --color-neutral-10: var(--color-neutral-10);
+  --color-neutral-20: var(--color-neutral-20);
+  --color-neutral-30: var(--color-neutral-30);
+  --color-neutral-40: var(--color-neutral-40);
+  --color-neutral-50: var(--color-neutral-50);
+  --color-neutral-100: var(--color-neutral-100);
+  --color-neutral-200: var(--color-neutral-200);
+  --color-neutral-300: var(--color-neutral-300);
+  --color-neutral-400: var(--color-neutral-400);
+  --color-neutral-500: var(--color-neutral-500);
+  --color-neutral-600: var(--color-neutral-600);
+  --color-neutral-700: var(--color-neutral-700);
+  --color-neutral-800: var(--color-neutral-800);
+  --color-neutral-900: var(--color-neutral-900);
+
+}
