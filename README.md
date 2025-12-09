@@ -35,14 +35,14 @@ npm install -g generator-smiley
 yo smiley
 ```
 
-然后按照提示选择项目模版和输入项目名称。
-❯ React Template
-  Vue 2 Template
-  Vue 3 Template
-  Vue 3 Admin Template
-  Vue 3 H5 Template
-  React Admin Template
-  React H5 Template
+然后按照提示选择项目模版和输入项目名称:
+<div>❯&nbsp; React Template </div>
+<div> &nbsp;&nbsp;&nbsp; Vue 2 Template</div>
+<div> &nbsp;&nbsp;&nbsp; Vue 3 Template</div>
+<div> &nbsp;&nbsp;&nbsp; Vue 3 Admin Template</div>
+<div> &nbsp;&nbsp;&nbsp; Vue 3 H5 Template</div>
+<div> &nbsp;&nbsp;&nbsp; React Admin Template</div>
+<div> &nbsp;&nbsp;&nbsp; React H5 Template</div>
 
 ### 直接创建特定类型项目
 

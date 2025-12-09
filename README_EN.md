@@ -36,13 +36,13 @@ yo smiley
 ```
 
 Then follow the prompts to select a project template and enter the project name.
-❯ React Template
-  Vue 2 Template
-  Vue 3 Template
-  Vue 3 Admin Template
-  Vue 3 H5 Template
-  React Admin Template
-  React H5 Template
+<div>❯&nbsp; React Template </div>
+<div> &nbsp;&nbsp;&nbsp; Vue 2 Template</div>
+<div> &nbsp;&nbsp;&nbsp; Vue 3 Template</div>
+<div> &nbsp;&nbsp;&nbsp; Vue 3 Admin Template</div>
+<div> &nbsp;&nbsp;&nbsp; Vue 3 H5 Template</div>
+<div> &nbsp;&nbsp;&nbsp; React Admin Template</div>
+<div> &nbsp;&nbsp;&nbsp; React H5 Template</div>
 
 ### Direct Creation of Specific Project Types
 
