@@ -1,5 +1,6 @@
 "use strict";
-const Generator = require("yeoman-generator");
+const Generator =
+  require("yeoman-generator").default || require("yeoman-generator");
 const chalk = require("chalk");
 const yosay = require("yosay");
 
