@@ -11,4 +11,4 @@ yarn.lock
 prettier.config.js
 *.md
 **/__tests__/**,
-**/generators/**/templates/*,
+**/generators/**/templates/**

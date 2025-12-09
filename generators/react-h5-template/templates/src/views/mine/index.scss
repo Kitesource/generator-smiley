@@ -1,0 +1,108 @@
+.mine-container {
+  padding: 8px;
+  padding-bottom: 80px; // 为底部TabBar留出空间
+  min-height: 100vh;
+  background-color: #f5f5f5;
+
+  // 内容区域
+  .mine-content {
+    // 内容区域样式
+  }
+
+  .adm-list {
+    .adm-list-body {
+      border: none;
+    }
+    .adm-list-item {
+      border-bottom: none;
+    }
+  }
+  // 卡片样式
+  .adm-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 16px;
+    overflow: hidden;
+
+    .adm-card-header {
+      background-color: #fafafa;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .adm-card-body {
+      padding: 0; // 移除卡片内边距，让列表直接贴合卡片边缘
+    }
+  }
+
+  // 用户信息卡片
+  .user-card {
+    .adm-card-body {
+      padding: 16px; // 用户信息卡片保留内边距
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      padding: 16px;
+
+      .adm-avatar {
+        margin-right: 16px;
+        border: 2px solid #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .user-details {
+        flex: 1;
+
+        .user-name {
+          font-size: 18px;
+          font-weight: 600;
+          margin-bottom: 4px;
+          color: #333;
+        }
+
+        .user-desc {
+          font-size: 14px;
+          color: #666;
+        }
+      }
+    }
+
+    .user-stats {
+      display: flex;
+      justify-content: space-around;
+      padding: 16px;
+      padding-top: 0;
+
+      .stat-item {
+        text-align: center;
+
+        .stat-value {
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 4px;
+          color: #333;
+        }
+
+        .stat-label {
+          font-size: 12px;
+          color: #999;
+        }
+      }
+    }
+  }
+
+  // 退出登录按钮
+  .logout-btn {
+    margin-top: 32px;
+    border-radius: 8px;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 20px;
+    transition: all 0.3s;
+
+    &:active {
+      transform: scale(0.98);
+    }
+  }
+}

@@ -25,6 +25,8 @@ module.exports = class extends Generator {
           { name: 'Vue 3 Template', value: 'vue3-template' },
           { name: 'Vue 3 Admin Template', value: 'vue3-admin-template' },
           { name: 'Vue 3 H5 Template', value: 'vue3-h5-template' },
+          { name: 'React Admin Template', value: 'react-admin-template' },
+          { name: 'React H5 Template', value: 'react-h5-template' },
         ],
       },
       {

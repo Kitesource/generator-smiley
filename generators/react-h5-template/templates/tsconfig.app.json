@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    // ESNext 是一个始终表示 JavaScript 下一个版本的名称
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    // 是否跳过声明文件的类型检查，这可以在编译期间以牺牲类型系统准确性为代价来节省时间，默认：false。
+    "skipLibCheck": true,
+    // 解析非相对模块的基地址，默认是当前目录
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "/#/*": ["types/*"],
+      "/build/*": ["build/*"]
+    },
+    /* Bundler mode */
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    // 是否将每个文件转换为单独的模块，默认：false。
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    /* Linting */
+    // 是否使用严格模式
+    "strict": true,
+    // 是否检查未使用的局部变量
+    "noUnusedLocals": true,
+    // 是否检查未使用的参数
+    "noUnusedParameters": true,
+    // 是否检查未使用的表达式
+    "noFallthroughCasesInSwitch": true,
+    // 是否检查未使用的导入
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,25 @@
+.main-layout {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 60px; // 为底部TabBar留出空间
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; // 在iOS上提供平滑滚动
+}
+
+.main-tabbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 60px;
+}
