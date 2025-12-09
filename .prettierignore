@@ -1,0 +1,14 @@
+dist
+dist*
+dist_electron
+node_modules
+.vscode
+electron
+package-lock.json
+pnpm-lock.json
+yarn.lock
+/public/*
+prettier.config.js
+*.md
+**/__tests__/**,
+**/generators/**/templates/*,
