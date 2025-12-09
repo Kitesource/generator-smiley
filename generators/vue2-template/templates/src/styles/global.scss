@@ -1,0 +1,7 @@
+@forward 'variable.scss';
+@forward 'namespace.scss';
+
+/* 
+  全局样式
+  在 vue.config.js additionalData 配置，注入全局，仅注入到每个 Vue 组件的 style 里，如果单建 SCSS 文件，则需要手动引入使用全局变量的文件，如 @styles/common/var.scss
+*/

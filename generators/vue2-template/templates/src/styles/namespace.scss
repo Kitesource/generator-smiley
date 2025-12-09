@@ -1,0 +1,10 @@
+$gw-namespace: gw !default;
+
+// el 命名空间
+$el-namespace: el !default;
+$common-separator: '-' !default;
+$element-separator: '__' !default;
+$modifier-separator: '--' !default;
+$is-state-prefix: 'is-' !default;
+$has-state-prefix: 'has-' !default;
+$no-state-prefix: 'no-' !default;
